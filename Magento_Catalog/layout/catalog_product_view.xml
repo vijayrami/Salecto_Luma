@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd"> 
+    <body>
+		<!--<referenceContainer name="product.info.main">
+            <block class="Magento\Catalog\Block\Product\View" name="product.attribute.custom_message" template="Magento_Catalog::product/view/attribute.phtml">
+                <arguments>
+                    <argument name="at_call" xsi:type="string">getCustomMessage</argument>
+                    <argument name="at_code" xsi:type="string">CustomMessage</argument>
+                    <argument name="at_label" xsi:type="string">Product's Custom Message</argument>
+                    <argument name="css_class" xsi:type="string">custom-message</argument>
+                </arguments>
+            </block>
+     </referenceContainer>-->
+        <!-- or you can use custom template to display your custom attribute -->
+        <referenceContainer name="product.info.main">
+            <block class="Magento\Catalog\Block\Product\View" name="product.attribute.custom_message" template="Magento_Catalog::product/view/attribute/custom.phtml">
+                <arguments>
+                    <argument name="title" translate="true" xsi:type="string">Product's Custom Message</argument>
+                </arguments>
+            </block>
+     </referenceContainer>
+    </body>
+</page>

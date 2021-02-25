@@ -1,0 +1,56 @@
+.action.tocart.primary {
+	background: #067d10f7;
+	border-radius: 15px 15px 15px 15px;
+}
+/* switch logo and cart css */
+header.page-header .header .logo {
+	float: right;
+}
+header.page-header .header .block-search {
+	float: left;
+}
+header.page-header .header .minicart-wrapper {
+	float: left;
+}
+/* slick slider css */
+#slick-products .widget-product-grid {
+    width: 100%;
+}
+.slick-slide {
+  margin: 0px 27px;
+}
+.slick-list {
+    margin: 0 -27px;
+}
+.slick-slide img {
+  /*width: 100%;*/
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.slick-slide {
+  transition: all ease-in-out .3s;
+  /*opacity: .2;*/
+}
+.slick-active {
+  opacity: .5;
+}
+.slick-current {
+  opacity: 1;
+}
+.minicart-wrapper .block-minicart {
+	left: 10px;
+	margin-top: 8px;
+	left: 0px;
+}
+.minicart-wrapper .action.close {
+	left:0;
+}
+.minicart-wrapper .block-minicart::after {
+	left:11px;
+}
+.minicart-wrapper .block-minicart::before {
+	left: 12px;
+}
