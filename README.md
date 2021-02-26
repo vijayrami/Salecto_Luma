@@ -32,7 +32,7 @@ Your slick products carousal will be come from:
 `app/design/frontend/Salecto/luma_child/Magento_CatalogWidget/templates/product/widget/content/slider_grid.phtml`
   
 <p><img src="https://i.ibb.co/QKPy6JJ/Home-Page.png"></p>
-<p><img src="https://i.ibb.co/pwGqdd9/Home-Page-1.png"></p>
+<p><img src="https://i.ibb.co/bLQqJWF/Home-Page.png"></p>
 <p><img src="https://i.ibb.co/TKWT8dj/Screenshot-from-2021-02-25-20-08-56.png"></p>
 <p><img src="https://i.ibb.co/5nLNX5F/Screenshot-from-2021-02-25-20-09-01.png"></p>
 <p><img src="https://i.ibb.co/HG5pqGh/Screenshot-from-2021-02-25-20-09-18.png"></p>
